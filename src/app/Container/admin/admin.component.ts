@@ -10,7 +10,10 @@ import { SideNavLink } from '../../Models/NavLink.model';
 export class AdminComponent {
   navigationLinks:SideNavLink[] = [
     {path:'dashboard', label: 'Dashboard', icon : '../../../assets/Images/Manager/dashboard_icon_2.png'},
-    {path:'warehouse', label: 'warehouses', icon : '../../../assets/Images/Manager/inventory_1.png'},
+    {path:'signup-request', label: 'SignUp Requests', icon : '../../../assets/Images/Manager/inventory_1.png'},
+    {path:'manager', label: 'Managers', icon : '../../../assets/Images/Manager/inventory_1.png'},
+    {path:'driver', label: 'Drivers', icon : '../../../assets/Images/Manager/inventory_1.png'},
+    {path:'customer', label: 'Customers', icon : '../../../assets/Images/Manager/inventory_1.png'},
   ];
 
   commonService = inject(CommonService);
